@@ -1,0 +1,266 @@
+/*selector{propriedade: valor;}*/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+*{margin:0; padding: 0;}
+
+body{
+	background-color: rgb(255, 255, 255);
+}
+
+header, img{
+	width: 100%;
+	height: 380px;
+}
+nav{
+	background-color: blueviolet;
+	text-align: center;
+	padding: 10px;
+}
+
+a{
+	font: 1.2rem 'Maven Pro', sans-serif;;
+	text-decoration: none;
+}
+.a-menu{
+	color:  #FFF;
+	margin-right: 40px;
+	font-weight: bold;
+}
+/* Quando o menu é aberto*/
+.a-menu: link, .a-menu: visited{
+	color:  #FFF;
+}
+/*Quando o mouse passa sobre*/
+.a-menu:hover, .a-menu:active {
+	color: purple;
+}
+
+article{
+	width: 100%;
+	background-color: #FFF;
+	padding: 20px;
+	box-sizing: border-box;
+}
+h1{
+	font: 3rem Oswald, sans-serif;
+	color: purple;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+p{
+	font: 1.2rem 'Maven Pro', sans-serif;
+	color: #777;
+	text-align: justify;
+	line-height: 30px;
+}
+#txt-preto{
+	color: #000;
+	/*negrito*/font-weight: bold;
+}
+section{
+	padding: 20px;
+}
+
+h2 {
+	color:  blueviolet;
+	font: 3rem Oswald, sans-serif;
+	margin-bottom: 20px;
+}
+
+#pag-beneficios {
+	background-color: blueviolet;
+}
+
+#pag-beneficios h2{
+	color:  whitesmoke;
+	font: 3rem Oswald, sans-serif;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+#pag-beneficios p{
+	color:  whitesmoke;
+	margin-top:  30px;
+}
+
+ul{
+	/*
+	Borda de lista
+	list-style-position:  inside;  outside (o marcador fica fora da lista)
+	border: 1px solid #fff;
+
+	Modificar marcador
+	list-style-type: circle;
+
+	Marcador como uma imagem a partir de uma url
+	list-style-image:  url;
+	*/
+	list-style-type: circle;
+	padding: 20px 50px;
+}
+
+li{
+	font: 1.2rem 'Maven Pro', sans-serif;
+	color: whitesmoke;
+	margin-bottom: 10px;
+}
+#pag-terapias {
+	background-color: #EEE;
+
+}
+
+#container{
+	display: flex;
+	margin-top: 15px;
+	margin-bottom: 20px;
+
+}
+
+.card{
+	background-color: #FFF;
+	margin: 10px;
+	width: 50%;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 0px 4px 8px #ccc;
+	transition:  0.1s;
+}
+
+.card:hover{
+	box-shadow: :0 8px 16px #ccc;
+}
+
+.card-content{
+	padding: 10px
+}
+
+.card-content p{
+	font: 1rem 'Maven Pro', sans-serif;
+	color: #777;
+	text-align: justify;
+	line-height: 20px;
+}
+
+h3 {
+	color:  blueviolet;
+	font: 1.8rem Oswald, sans-serif;	
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#pag-treinos{
+
+}
+
+#pag-treinos p{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#container-treinos{
+	display: flex;
+
+}
+
+.coluna-treinos{
+	padding: 40px;
+}
+
+.container-imagens{
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-icones{
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+
+video{
+	width: 400px;
+}
+
+footer{
+	background-color: purple;
+	padding: 20px;
+}
+footer p, a{
+	text-align: center;
+	color: #FFF;
+}
+footer a:hover{
+	color: blueviolet;
+}
+
+/* Página agendamentos */
+#pag-agendamentos {
+
+}
+
+#pag-agendamentos p{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form{
+	width: 400px;
+	margin: 0 auto;  
+}
+
+input, select, textarea{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border: 1px solid #C4C4C4;
+	color:  #777;
+}
+
+label, fieldset, input, select, textarea{
+	font: 1rem 'Roboto', sans-serif;	
+}
+
+fieldset{
+	border: 1px solid #C4C4C4;	
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#data-hora-num{
+	display: flex;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	width: 15px;
+	height: 15px;
+	margin-left: 50px;
+}
+
+textarea{
+	height: 60px;
+}
+
+#botoes-form{
+	display: flex;
+}
+
+input[type="submit"], input[type="reset"]{
+	margin: 20px;
+	background-color: #8BC34A;
+	color: #FFF;
+	border: 0;
+	border-radius: 5px;
+}
+input[type="reset"]{
+	background-color: #F47E7E;
+}
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<title>Lotus Cosmica</title>
+		<meta name="author" content="Camila Ribeiro" />
+		<meta name="keywords" content="Tarot, Terapias Holisticas, Yoga, Yogaterapia, Reiki">
+		<meta name="description" content="Atendimento on-line de Terapias Holísticas" />
+		<link rel="stylesheet" type="text/css" href="estilo.css" />
+	</head>
+	<body>
+		<header>
+			<img src="img/banner2.png" alt="banner com a logo da lotus cosmica com uma flor de lotus e uma postura de yoga"></img>
+		</header>
+		<nav>
+			<a href="#"> HOME </a>
+			<a href="index.html#pag-beneficios"> BENEFÍCIOS </a>
+			<a href="index.html#pag-terapias"> TERAPIAS </a>
+			<a href="index.html#pag-atendimentos"> ATENDIMENTOS </a>
+			<a href="#"> AGENDAMENTOS </a>	
+		</nav>
+		<section id="pag-agendamentos>
+			<h1 align="center">Agendamentos</h1>
+				Agenda aqui o seu atendimento
+			<form name="" method="" action="">
+
+				<label for="nome">Nome:</label>
+				<input id="nome" type="text" name="nome_completo"  placeholder="Digite seu nome completo" required />
+
+				<label for="email">E-mail:</label>
+				<input id="email" type="email" name="email" placeholder="Seuemail@email.com">
+
+				<label for="senha">Senha:</label>
+				<input id="senha" type="password" name="senha" placeholder="Somente numeros">>
+
+				<label for="celular">Celular:</label>
+				<input id="celular" type="tel" name="celular" placeholder="(99) 99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" />
+
+				<div id="data-hora-num">
+					<div>
+					<label for="date">Data:</label>
+					<input id="data" type="date" name="data" />
+					</div>
+
+					<div>
+						<label for="time">Hora:</label>
+						<input id="hora"type="time" name="hora" />
+					</div>
+					<div>
+						<label for="sessoes">Sessões: </label>
+						<input id="sessoes" type="number" name="sessoes" min="1" max="10" step="1" />
+					</div>
+				</div>
+
+				<label for="periodo">Período:</label>
+				<select id="periodo" name="periodo">
+					<option value="Diário">Diário</option>
+					<option value="Semanal">Semanal</option>
+					<option value="Quinzenal">Quinzenal</option>
+					<option value="Mensal">Mensal</option>
+					<option value="Outro">Outro</option>
+				</select><br /><br />
+
+				<fieldset>
+					<legend>Gênero:</legend>
+					<input type="radio" name="genero" value="masc" /><label for="masc">Masculino</label><br/>
+					<input type="radio" name="genero" value="fem" /><label for="fem">Feminino</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Terapias</legend>
+					<input id="tarot" type="checkbox" name=""><label for="tarot">Tarot</label><br/>
+					<input id="yoga" type="checkbox" name=""><label for="yoga">Yoga</label><br/>
+					<input id="reiki"type="checkbox" name=""><label for="reiki">Reiki</label><br/>
+					<input id="terapiaq" type="checkbox" name=""><label for="terapiaq">Terapia Quântica</label><br/>
+				</fieldset>
+
+				<label for="msg">Mensagem:</label><br />
+				<textarea id="msg" cols="48" rows="4"></textarea>
+				<div id="botoes-form">
+					<input type="submit" name="btn-agendar" value="AGENDAR" />
+					<input type="reset" name="btn-cancelar" value="CANCELAR" />
+				</div>
+			</form>
+		</section>
+		<footer>
+			<p> Desenvolvido por <a href="http://www.instagram.com/c4milaribeir0/" target=_blank">Camila Ribeiro</a> 2021. </p>
+		</footer>
+	</body>
+</html>
